@@ -1,0 +1,5 @@
+# Programa fará a leitura do número e apresentará um resultado ao cubo desse número
+
+text = float(input("Digite um número: "))
+numerocubo = text ** 3.0
+print(text, "elevado Ao Cubo é", numerocubo)
