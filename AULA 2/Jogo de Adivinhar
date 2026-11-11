@@ -1,0 +1,17 @@
+
+import random
+
+print('Jogo da Adivinhação - ADIVINHE UM NÚMERO')
+print('****' * 8)
+print() # PULANDO LINHA
+
+numero_aleatorio = random.randint(1,2)
+escolha_usuario = int(input('Digite um número entre 1 à 10: '))
+
+resultado = numero_aleatorio == escolha_usuario and ('ACERTOU') or ('ERROU FEIO')
+palavrafinal = escolha_usuario == 
+
+print('RESULTADO: ', resultado)
+print('O número era: ', numero_aleatorio)
+
+print('Bom trabalho!', palavrafinal)
