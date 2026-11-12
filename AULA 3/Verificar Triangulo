@@ -1,0 +1,16 @@
+print('Olá, iremos analisar o tamanho dos lados do seu triangulo, por favor >')
+lado1 = int(input('Digite o primeiro lado do Triângulo: '))
+lado2 = int(input('Digite o segundo lado do Triângulo: '))
+lado3 = int(input('Digite o tamanho da base do Triângulo: '))
+print()
+
+
+if lado1 == lado2 == lado3:
+    print('Triangulo equilátero')
+    
+if lado1 != lado2 != lado3:
+    print('Triangulo Escaleno')
+    
+if lado1 == lado2 != lado3:
+    print('Triangulo Isósceles')
+    
