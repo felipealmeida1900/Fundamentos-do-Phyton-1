@@ -1,7 +1,7 @@
 # Digite os números que serão armazenadas em variáveis
 # E depois concatenados
 
-numero1 = input('Digite um número: ') #Número 1 que será concatenado
-numero2 = input('Digite mais um número: ') #Número 2 que será concatenado
+numero1 = int(input('Digite um número: ')) #Número 1 que será concatenado
+numero2 = int(input('Digite mais um número: ')) #Número 2 que será concatenado
 
 print(numero1, numero2) #Números concatenados
