@@ -1,0 +1,10 @@
+print('Olá, seja-bem vindo!')
+print('Para acessar nossos serviços é necessário ter ou ser maior que 18 anos')
+print()
+idade = int(input('Por favor, insira sua idade: '))
+print()
+if idade >= 18:
+    print('Acesso liberado')
+    
+else:
+    print('Acesso negado. Você não tem idade o suficiente.')
