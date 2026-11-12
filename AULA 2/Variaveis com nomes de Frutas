@@ -1,5 +1,7 @@
 #Viaráveis com nomes de frutas e concatenadas
 
-banana =
-maçã =
-melancia = 
+var1 = 'banana'
+var2 = 'uva'
+var3 =  'morango'
+
+print('Lista de frutas: ' + var1, var2, var3)
