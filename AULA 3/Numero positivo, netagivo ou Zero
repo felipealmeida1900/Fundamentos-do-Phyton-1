@@ -1,0 +1,14 @@
+numero = int(input('Insira um número: '))
+
+if numero == 0:
+    print('O número inserido é 0')
+    
+if numero < 0:
+    print('O número inserido é negativo')
+    
+if numero > 0:
+    print('O número inserido é positivo')
+    
+else:
+    pass
+    
