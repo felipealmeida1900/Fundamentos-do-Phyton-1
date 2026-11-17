@@ -1,0 +1,9 @@
+
+import time
+
+for x in range(1,6):
+    print(x , 'Mississipi')
+    time.sleep(1)
+    
+    
+print('Prontos ou não, aqui vou eu')
