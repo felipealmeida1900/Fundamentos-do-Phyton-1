@@ -1,0 +1,10 @@
+# Solicita que o usuário insira uma palavra
+# e atribua-a à variável user_word.
+lista = ['A','E','I', 'O', 'U']
+
+user_word  =  input('Digite uma palavra: ').upper()
+for letter in user_word:
+    
+    if letter in lista:
+        continue
+    print(letter, end= '')
